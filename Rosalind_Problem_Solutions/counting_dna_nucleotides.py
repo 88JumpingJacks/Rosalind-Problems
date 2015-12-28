@@ -1,3 +1,5 @@
+from FileUtils import *
+
 """
 Counting DNA Nucleotides
 
@@ -15,7 +17,7 @@ def countNucleotides(s):
 
 
 # todo read input file
-file = open("../Data_Files/rosalind_dna.txt", "r")
+file = open(FileUtils.dataFiles_Dir + "rosalind_dna.txt", "r")
 
 # Initialize dictionary storing counts for each nucleotide
 count = {'A': 0, 'C': 0, 'G': 0, 'T': 0}
