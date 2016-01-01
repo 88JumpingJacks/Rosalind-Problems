@@ -17,5 +17,5 @@ def dnaToRNA(s):
 
     return rna
 
-contents = FileUtils.readFile(FileUtils.dataFiles_Dir + "rosalind_rna.txt")
+contents = FileUtils.readFile(FileUtils.DATA_FILES_DIR + "rosalind_rna.txt")
 print dnaToRNA(contents)

@@ -16,6 +16,6 @@ def reverseComplementDNA(dna):
 
     return reverseComplement
 
-contents = FileUtils.readFile(FileUtils.dataFiles_Dir + "rosalind_revc.txt")
+contents = FileUtils.readFile(FileUtils.DATA_FILES_DIR + "rosalind_revc.txt")
 
 print reverseComplementDNA(contents)
